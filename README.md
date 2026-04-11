@@ -21,23 +21,22 @@ CSV Data (Kaggle) → Python → Snowflake RAW → Snowflake CLEAN → Power BI 
 - **Date Range:** March 2020 to April 2026
 - **Fields:** Company, Industry, Country, Total Laid Off, Percentage, Funding Stage
 
-## ETL Process
-
 ### Extract
 - Downloaded layoff data from Kaggle as CSV
 - Uploaded to Snowflake internal stage using Python connector
+
+### Load
+- Loaded RAW data as-is into RAW.layoffs_raw table
+- Used COPY INTO command for bulk loading
+- Kept original data untouched in RAW schema
 
 ### Transform
 - Removed rows with null company names
 - Converted date strings to proper DATE format
 - Trimmed whitespace from all text columns
 - Standardized NULL values across all columns
-- Stored clean data in separate CLEAN schema
-
-### Load
-- Loaded raw data into RAW.layoffs_raw table
-- Created CLEAN.layoffs_clean with all transformations applied
-- Used COPY INTO command for bulk loading
+- Created CLEAN.layoffs_clean with all transformations
+- Transformations done INSIDE Snowflake using SQL
 
 ## Analysis Performed
 
@@ -60,6 +59,10 @@ CSV Data (Kaggle) → Python → Snowflake RAW → Snowflake CLEAN → Power BI 
 - Retail and Hardware industries were hit hardest
 - United States accounted for majority of global layoffs
 - Layoffs peaked in 2022 and 2023 post pandemic
+
+## 📸 Dashboard Preview
+
+![Global Layoff Tracker Dashboard](dashboard_screenshot.png)
 
 ## Project Structure
 
