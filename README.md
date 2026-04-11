@@ -21,6 +21,7 @@ CSV Data (Kaggle) → Python → Snowflake RAW → Snowflake CLEAN → Power BI 
 - **Date Range:** March 2020 to April 2026
 - **Fields:** Company, Industry, Country, Total Laid Off, Percentage, Funding Stage
 
+## ELT Process
 ### Extract
 - Downloaded layoff data from Kaggle as CSV
 - Uploaded to Snowflake internal stage using Python connector
@@ -60,7 +61,7 @@ CSV Data (Kaggle) → Python → Snowflake RAW → Snowflake CLEAN → Power BI 
 - United States accounted for majority of global layoffs
 - Layoffs peaked in 2022 and 2023 post pandemic
 
-## 📸 Dashboard Preview
+## Dashboard Preview
 
 ![Global Layoff Tracker Dashboard](dashboard_screenshot.png)
 
