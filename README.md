@@ -2,7 +2,7 @@
 
 
 ## Project Overview
-An end-to-end ETL data engineering project that tracks
+An end-to-end ELT data engineering project that tracks
 global tech layoffs from 2020-2026 across 50+ countries.
 
 ## Architecture
