@@ -63,8 +63,15 @@ CSV Data (Kaggle) → Python → Snowflake RAW → Snowflake CLEAN → Power BI 
 
 ## 📊 Live Interactive Dashboard
 
-**[Click Here to View Live Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMjdjYjg3YTctNjI0Ni00YWU3LWExNjAtZjZjZDUwODJkMDM5IiwidCI6IjcwZGUxOTkyLTA3YzYtNDgwZi1hMzE4LWExYWZjYmEwMzk4MyIsImMiOjN9)**
+**[Click Here to View Live Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZWY2MDNlYWQtZDJhOS00NzgyLTg3MDItZWVjYjZkMzFlMzdlIiwidCI6IjcwZGUxOTkyLTA3YzYtNDgwZi1hMzE4LWExYWZjYmEwMzk4MyIsImMiOjN9g)**
 
+## Architecture Diagram
+
+![Architecture Diagram](architecture_diagram.png)
+
+## Snowflake Schema 
+
+![Snowflake Schema](snowflake_schema.png)
 
 ## Dashboard Preview
 
