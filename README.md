@@ -61,9 +61,6 @@ CSV Data (Kaggle) → Python → Snowflake RAW → Snowflake CLEAN → Power BI 
 - United States accounted for majority of global layoffs
 - Layoffs peaked in 2022 and 2023 post pandemic
 
-## 📊 Live Interactive Dashboard
-
-**[Click Here to View Live Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZWY2MDNlYWQtZDJhOS00NzgyLTg3MDItZWVjYjZkMzFlMzdlIiwidCI6IjcwZGUxOTkyLTA3YzYtNDgwZi1hMzE4LWExYWZjYmEwMzk4MyIsImMiOjN9g)**
 
 ## Architecture Diagram
 
@@ -76,6 +73,10 @@ CSV Data (Kaggle) → Python → Snowflake RAW → Snowflake CLEAN → Power BI 
 ## Dashboard Preview
 
 ![Global Layoff Tracker Dashboard](dashboard_screenshot.png)
+
+## 📊 Live Interactive Dashboard
+
+**[Click Here to View Live Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZWY2MDNlYWQtZDJhOS00NzgyLTg3MDItZWVjYjZkMzFlMzdlIiwidCI6IjcwZGUxOTkyLTA3YzYtNDgwZi1hMzE4LWExYWZjYmEwMzk4MyIsImMiOjN9g)**
 
 ## Project Structure
 
